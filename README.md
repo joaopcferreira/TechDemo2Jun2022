@@ -1,5 +1,8 @@
 # TechDemo2Jun2022
 
+- [Create Services and ingress](#create)
+- [Delete](#delete)
+
 
 Goal : Be able to understand/install ingress on existing eks cluster.
 
@@ -11,8 +14,8 @@ Kubernetes ingress != Ingress controllers
 
 [Comparison Kubernetes Ingress Controllers](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238)
 
-
-# [Ingress nginx](https://kubernetes.github.io/ingress-nginx/deploy/)
+<a id="create"></a>
+# [Create Services and ingress](https://kubernetes.github.io/ingress-nginx/deploy/)
 
 - [ ] Check Install ingress nginx helm repo
     ```bash
@@ -65,6 +68,8 @@ Kubernetes ingress != Ingress controllers
  
 - [ ] Go to cloudflare and create CNAME for the test.amun.com with the ac1353ae016b6486fbd98d10ffa15f3a-cb791fc66e816ab3.elb.us-west-2.amazonaws.com
 
+
+<a id="delete"></a>
 # Delete
 - [ ] Delete techdemo namespace 
     ```bash
