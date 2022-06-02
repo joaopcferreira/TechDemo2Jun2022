@@ -4,13 +4,14 @@
 - [Delete](#delete)
 
 
-Goal : Be able to understand/install ingress on existing eks cluster.
+Goal : Be able to understand/install ingress on existing eks cluster amun-staging-us-west-2.
 
-nginx!= nginx ingress cluster  
-Kubernetes ingress != Ingress controllers
+
 
 ![image](img.png)
 
+nginx!= nginx ingress cluster  
+Kubernetes ingress != Ingress controllers
 
 [Comparison Kubernetes Ingress Controllers](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238)
 
@@ -30,10 +31,7 @@ Kubernetes ingress != Ingress controllers
     $ kubectl get pods -n ingress-nginx
     ```  
 
-- [ ] Create a new ingress
-    ```bash
-    $ kubectl get pods -n ingress-nginx
-    ```  
+
 
 - [ ] Create namespace techdemo
     ```bash
@@ -53,8 +51,7 @@ Kubernetes ingress != Ingress controllers
 - [ ] Create banana pod and service in techdemo namespace
     ```bash
     $kubectl apply -f banana/banana.yaml  
-    ```    
-
+    ```
 - [ ] Create test.amun.com ingress with /banana and /apple
     ```bash
     $kubectl apply -f ingress/ingress.yaml
@@ -79,4 +76,5 @@ Kubernetes ingress != Ingress controllers
 
 
 
-Links for the existing ingress:
+Links for the existing ingress on infra git ops:
+https://github.com/amun/infra-gitops/blob/staging/apps/base/lima-cms/ingress.yaml
