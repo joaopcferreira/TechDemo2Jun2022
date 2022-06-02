@@ -70,7 +70,3 @@ Kubernetes ingress != Ingress controllers
     ```
 - [ ] Delete cloudflare CNAME entry1
 
-
-
-Links for the existing ingress on infra git ops:
-https://github.com/amun/infra-gitops/blob/staging/apps/base/lima-cms/ingress.yaml
