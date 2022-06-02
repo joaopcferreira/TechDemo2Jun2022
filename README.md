@@ -50,17 +50,17 @@ Kubernetes ingress != Ingress controllers
 
 - [ ] Create banana pod and service in techdemo namespace
     ```bash
-    $kubectl apply -f banana/banana.yaml  
+    $ kubectl apply -f banana/banana.yaml  
     ```
 - [ ] Create test.amun.com ingress with /banana and /apple
     ```bash
-    $kubectl apply -f ingress/ingress.yaml
+    $ kubectl apply -f ingress/ingress.yaml
     ```       
 
 - [ ] Create the pods and ingress is running
     ```bash
-    $kubectl  get pods -n techdemo
-    $kubectl  get ing  -n techdemo
+    $ kubectl  get pods -n techdemo
+    $ kubectl  get ing  -n techdemo
     ```
  
 - [ ] Go to cloudflare and create CNAME for the test.amun.com with the ac1353ae016b6486fbd98d10ffa15f3a-cb791fc66e816ab3.elb.us-west-2.amazonaws.com
