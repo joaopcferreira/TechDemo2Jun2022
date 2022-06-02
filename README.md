@@ -6,10 +6,6 @@
 
 Goal : Be able to understand/install ingress on existing eks cluster amun-staging-us-west-2.
 
-
-
-![image](img.png)
-
 nginx!= nginx ingress cluster  
 Kubernetes ingress != Ingress controllers
 
@@ -24,7 +20,7 @@ Kubernetes ingress != Ingress controllers
     ```
 - [ ] Check the kubernetes services creation
     ```bash
-    $ k get svc -A
+    $ kubectl get svc -A
     ```  
 - [ ] Check the kubernetes services creation
     ```bash
