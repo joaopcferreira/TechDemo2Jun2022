@@ -74,4 +74,4 @@ Kubernetes ingress != Ingress controllers
 
 
 
-Links for the existing ingress 
+Links for the existing ingress:
